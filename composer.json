@@ -1,0 +1,26 @@
+{
+	"name": "myth/autoloader",
+	"type": "library",
+	"description": "A PSR-4 compatible autoloader.",
+	"keywords": [
+		"psr4 autoloader"
+	],
+	"homepage": "https://github.com/newmythmedia/autoloader",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lonnie Ezell",
+			"email": "lonnie@newmythmedia.com",
+			"homepage": "http://newmythmedia.com",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Myth\\Autoloader\\": "src/"
+		}
+	}
+}
